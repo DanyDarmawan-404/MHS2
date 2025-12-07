@@ -15,7 +15,7 @@ app.get("/status", (req, res) => {
 });
 
 // === ROUTE /products ===
-app.get("/products", async (req, res, next) => {
+app.get("/distro", async (req, res, next) => {
   try {
     // SQL bersih tanpa karakter aneh
     const sql = `
